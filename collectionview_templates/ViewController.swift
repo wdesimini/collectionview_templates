@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    private let images = [UIImage(), UIImage(), UIImage(), UIImage(), UIImage()]
+    private let images = ImageDataService.images
     
     private weak var collectionView: UICollectionView!
     
