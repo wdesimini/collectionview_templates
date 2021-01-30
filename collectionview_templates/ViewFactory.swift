@@ -8,10 +8,10 @@
 import UIKit
 
 struct ViewFactory {
-    static func collectionView(cellClasses: [AnyClass]) -> UICollectionView {
+    static func collectionView(cellClasses: [AnyClass], cellSpacing: CGFloat = 0) -> UICollectionView {
         let layout = UICollectionViewFlowLayout()
-        layout.minimumLineSpacing = 0
-        layout.minimumInteritemSpacing = 0
+        layout.minimumLineSpacing = cellSpacing
+        layout.minimumInteritemSpacing = cellSpacing
         layout.scrollDirection = .vertical
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.translatesAutoresizingMaskIntoConstraints = false

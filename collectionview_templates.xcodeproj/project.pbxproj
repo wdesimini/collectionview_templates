@@ -19,6 +19,7 @@
 		CF12DB4825C3A5080077A0DD /* UIView+Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF12DB4725C3A5080077A0DD /* UIView+Pin.swift */; };
 		CF12DB5025C3A55C0077A0DD /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF12DB4F25C3A55C0077A0DD /* ImageCollectionViewCell.swift */; };
 		CFD933FD25C3A69E00069117 /* ImageDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD933FC25C3A69E00069117 /* ImageDataService.swift */; };
+		CFD9340725C4854200069117 /* ImagesColumnCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9340625C4854200069117 /* ImagesColumnCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		CF12DB4725C3A5080077A0DD /* UIView+Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Pin.swift"; sourceTree = "<group>"; };
 		CF12DB4F25C3A55C0077A0DD /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		CFD933FC25C3A69E00069117 /* ImageDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataService.swift; sourceTree = "<group>"; };
+		CFD9340625C4854200069117 /* ImagesColumnCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesColumnCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				CF12DB0025C3A39E0077A0DD /* AppDelegate.swift */,
 				CF12DB0225C3A39E0077A0DD /* SceneDelegate.swift */,
 				CF12DB4F25C3A55C0077A0DD /* ImageCollectionViewCell.swift */,
+				CFD9340625C4854200069117 /* ImagesColumnCollectionViewCell.swift */,
 				CFD933FC25C3A69E00069117 /* ImageDataService.swift */,
 				CF12DB0425C3A39E0077A0DD /* ViewController.swift */,
 				CF12DB3A25C3A4EC0077A0DD /* ViewFactory.swift */,
@@ -275,6 +278,7 @@
 				CF12DB5025C3A55C0077A0DD /* ImageCollectionViewCell.swift in Sources */,
 				CF12DB0325C3A39E0077A0DD /* SceneDelegate.swift in Sources */,
 				CF12DB3B25C3A4EC0077A0DD /* ViewFactory.swift in Sources */,
+				CFD9340725C4854200069117 /* ImagesColumnCollectionViewCell.swift in Sources */,
 				CF12DB4025C3A4FD0077A0DD /* UICollectionView+Quick.swift in Sources */,
 				CFD933FD25C3A69E00069117 /* ImageDataService.swift in Sources */,
 			);
